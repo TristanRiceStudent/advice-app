@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <AdviceApp />
+      <AdviceApp role="main" />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")

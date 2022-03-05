@@ -7,11 +7,11 @@ import Separator from "../../components/Separator/Separator";
 import { useAdvice } from "../../hooks/useAdvice";
 import { AdviceAppStyled } from "./AdviceAppStyled";
 
-const AdviceApp = () => {
+const AdviceApp = ({ role }) => {
   const { advice, isLoading, handleGetAdvice } = useAdvice();
 
   return (
-    <AdviceAppStyled>
+    <AdviceAppStyled role={role}>
       <Card>
         {isLoading ? (
           <LoadingIcon />

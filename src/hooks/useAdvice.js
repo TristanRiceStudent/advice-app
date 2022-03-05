@@ -3,7 +3,8 @@ import getAdvice from "../api/advice/get-advice";
 
 const ADVICE_DEFAULT = {
   id: 117,
-  advice: "Gratitude is said to be the secret to happiness.",
+  advice:
+    "It is easy to sit up and take notice, what's difficult is getting up and taking action.",
 };
 
 export const useAdvice = () => {
